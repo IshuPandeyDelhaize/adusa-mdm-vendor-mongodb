@@ -1,0 +1,10 @@
+{
+    "name": "VMDM-DEVCluster",
+    "type": "mongodb-atlas",
+    "config": {
+        "clusterName": "VMDM-DEVCluster",
+        "readPreference": "primary",
+        "wireProtocolEnabled": false
+    },
+    "version": 1
+}

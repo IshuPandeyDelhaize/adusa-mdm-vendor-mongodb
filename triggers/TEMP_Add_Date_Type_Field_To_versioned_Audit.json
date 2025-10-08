@@ -1,0 +1,16 @@
+{
+    "name": "TEMP_Add_Date_Type_Field_To_versioned_Audit",
+    "type": "SCHEDULED",
+    "disabled": true,
+    "config": {
+        "schedule": "*/1 * * * *",
+        "skip_catchup_events": false
+    },
+    "event_processors": {
+        "FUNCTION": {
+            "config": {
+                "function_name": "Atlas_Triggers_TEMP_Add_Date_Type_Field_To_versioned_Audit_1712087867"
+            }
+        }
+    }
+}

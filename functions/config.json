@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Atlas_Triggers_delete_from_vmdm_staging_UTILITY_1710965734",
+        "private": false
+    },
+    {
+        "name": "Atlas_Triggers_Copy_Classification_From_Stage_to_Mirror_1708119438",
+        "private": false
+    },
+    {
+        "name": "Atlas_Triggers_Read_From_Staging_Entity_1750413243",
+        "private": true
+    },
+    {
+        "name": "Atlas_Triggers_Read_From_Staging_Flattened_1749831546",
+        "private": true
+    },
+    {
+        "name": "Atlas_Triggers_Delete_From_Staging_Classification_1710477647",
+        "private": false
+    },
+    {
+        "name": "Atlas_Triggers_LOAD_Read_BP_From_Staging_Entity_1710795363",
+        "private": false
+    },
+    {
+        "name": "Atlas_Triggers_LOAD_Read_From_Staging_Flattened_1711141157",
+        "private": false
+    },
+    {
+        "name": "Atlas_Triggers_Delete_From_versioned_Audit_1712091375",
+        "private": false
+    },
+    {
+        "name": "Atlas_Triggers_TEMP_Add_Date_Type_Field_To_versioned_Audit_1712087867",
+        "private": false
+    },
+    {
+        "name": "Atlas_Triggers_temp_RON_deleteFromAudit_1713545757",
+        "private": false
+    },
+    {
+        "name": "Atlas_Triggers_setDivisionForLegacyAR_1718713931",
+        "private": false
+    },
+    {
+        "name": "Atlas_Triggers_Delete_From_Staging_Flattened_1759940448",
+        "private": true
+    }
+]

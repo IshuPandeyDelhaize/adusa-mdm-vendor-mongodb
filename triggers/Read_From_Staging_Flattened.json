@@ -1,0 +1,29 @@
+{
+    "name": "Read_From_Staging_Flattened",
+    "type": "DATABASE",
+    "disabled": false,
+    "config": {
+        "collection": "flattened",
+        "database": "vmdm-staging-Context1",
+        "full_document": true,
+        "full_document_before_change": false,
+        "match": {},
+        "maximum_throughput": false,
+        "operation_types": [
+            "INSERT",
+            "UPDATE"
+        ],
+        "project": {},
+        "service_name": "VMDM-DEVCluster",
+        "skip_catchup_events": false,
+        "tolerate_resume_errors": false,
+        "unordered": false
+    },
+    "event_processors": {
+        "FUNCTION": {
+            "config": {
+                "function_name": "Atlas_Triggers_Read_From_Staging_Flattened_1749831546"
+            }
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "name": "LOAD_Read_BP_From_Staging_Entity",
+    "type": "SCHEDULED",
+    "disabled": true,
+    "config": {
+        "schedule": "*/10 * * * *",
+        "skip_catchup_events": false
+    },
+    "event_processors": {
+        "FUNCTION": {
+            "config": {
+                "function_name": "Atlas_Triggers_LOAD_Read_BP_From_Staging_Entity_1710795363"
+            }
+        }
+    }
+}

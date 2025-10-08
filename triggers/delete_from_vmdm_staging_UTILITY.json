@@ -1,0 +1,16 @@
+{
+    "name": "delete_from_vmdm_staging_UTILITY",
+    "type": "SCHEDULED",
+    "disabled": true,
+    "config": {
+        "schedule": "*/1 * * * *",
+        "skip_catchup_events": false
+    },
+    "event_processors": {
+        "FUNCTION": {
+            "config": {
+                "function_name": "Atlas_Triggers_delete_from_vmdm_staging_UTILITY_1710965734"
+            }
+        }
+    }
+}

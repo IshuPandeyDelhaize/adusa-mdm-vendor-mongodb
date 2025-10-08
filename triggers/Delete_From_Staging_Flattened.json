@@ -1,0 +1,16 @@
+{
+    "name": "Delete_From_Staging_Flattened",
+    "type": "SCHEDULED",
+    "disabled": true,
+    "config": {
+        "schedule": "*/5 * * * *",
+        "skip_catchup_events": false
+    },
+    "event_processors": {
+        "FUNCTION": {
+            "config": {
+                "function_name": "Atlas_Triggers_Delete_From_Staging_Flattened_1759940448"
+            }
+        }
+    }
+}
